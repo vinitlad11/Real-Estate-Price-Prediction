@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-data = pd.read_csv(r"C:\Users\Vinit\Data Science\Real Estate Price Prediction\Bengaluru_House_Data.csv")
+data = pd.read_csv("Bengaluru_House_Data.csv")
 
 model = pickle.load(open('model.pkl', 'rb'))
 X = pickle.load(open('clean_csv.pkl', 'rb'))
