@@ -5,7 +5,7 @@ import pickle
 
 data = pd.read_csv("Bengaluru_House_Data.csv")
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('Real-Estate-Price-Prediction/model.pkl', 'rb'))
 X = pickle.load(open('clean_csv.pkl', 'rb'))
 location = pickle.load(open('location.pkl', 'rb'))
 
