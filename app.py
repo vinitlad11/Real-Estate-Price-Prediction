@@ -5,9 +5,9 @@ import pickle
 
 data = pd.read_csv("Bengaluru_House_Data.csv")
 
-model = pickle.load(open('/model.pkl', 'rb'))
-X = pickle.load(open('/clean_csv.pkl', 'rb'))
-location = pickle.load(open('/location.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
+X = pickle.load(open('clean_csv.pkl', 'rb'))
+location = pickle.load(open('location.pkl', 'rb'))
 
 
 def predict_price(a, b, c, d):
